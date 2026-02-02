@@ -51,8 +51,8 @@ Desktop App: * Install requirements: pip install customtkinter mysql-connector-p
 
 Run: python ZooDashboard.py
 
-License
+License:
 This project is open source.
 
-Author
+Author:
 Andreea Zbranca

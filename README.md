@@ -19,6 +19,8 @@ host="localhost",
 user="YOUR_USERNAME",  # e.g., "root"
 password="YOUR_PASSWORD", 
 database="gradina_zoologica"
+
+
 2. In JSP (JavaBean/Connection class):
 Update the connection string in your Java source file:
 
@@ -26,7 +28,8 @@ Java
 String url = "jdbc:mysql://localhost:3306/gradina_zoologica";
 String user = "YOUR_USERNAME";
 String password = "YOUR_PASSWORD";
-🛠️ Technology Stack
+
+Technology Stack
 Database: MySQL (Relational storage).
 
 Web: Java Server Pages (JSP), Apache Tomcat, JDBC.

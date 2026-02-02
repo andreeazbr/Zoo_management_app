@@ -1,14 +1,14 @@
-🐾 Zoo Admin Pro: Hybrid Management System
+Zoo Admin Pro: Hybrid Management System
 A comprehensive, dual-platform management system designed for modern zoos, this project features a Web Interface (JSP) for mobile accessibility and a Desktop Dashboard (Python) for advanced data analytics and reporting.
 
-🚀 Overview
+Overview
 This project bridges the gap between field work and administrative analysis. Both applications connect to a centralized MySQL database, ensuring real-time data synchronization.
 
 Web Module (JSP): Designed for mobile inventory management and daily logging.
 
 Desktop Module (Python): Designed for administrators to visualize health trends and generate PDF medical reports.
 
-⚠️ Important: Configuration
+Important: Configuration
 To ensure the application connects to your local database, you must update the credentials in both modules:
 
 1. In Python (ZooDashboard.py):
@@ -33,7 +33,7 @@ Web: Java Server Pages (JSP), Apache Tomcat, JDBC.
 
 Desktop: Python 3.x, CustomTkinter (UI), Matplotlib (Charts), FPDF (PDF Generation).
 
-✨ Key Features
+Key Features
 Centralized Inventory: Real-time sync between Web and Desktop.
 
 Medical Alerts: Automatic detection of animals needing check-ups.
@@ -42,7 +42,7 @@ Analytics: Visual distribution of species and weight history.
 
 Security: Implements Parameterized Queries to prevent SQL Injection.
 
-🔧 Installation
+Installation
 Database: Import the provided .sql files into your MySQL server.
 
 Web App: Deploy the JSP folder to the Tomcat webapps directory.
@@ -51,11 +51,8 @@ Desktop App: * Install requirements: pip install customtkinter mysql-connector-p
 
 Run: python ZooDashboard.py
 
-📄 License
+License
 This project is open source.
 
-
-👤 Author
+Author
 Andreea Zbranca
-
-Project for "Programming Database Interfaces"
